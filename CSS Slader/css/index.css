@@ -1,0 +1,35 @@
+body {
+   background-color: #1abc9c;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+   text-align: center;
+   color: rgb(220, 237, 42);
+   margin-top: 60px;
+   letter-spacing: 0.9rem;
+   font-size: 2.9em;
+}
+
+.maindiv {
+   background-size: 100% 100%;
+   width: 720px;
+   height: 450px;
+   top: 580px;
+   left: 1030px;
+   transform: translate(-99%,-99%);
+   position: absolute;
+   margin-top: 10px;
+   box-shadow: 1px 2px 10px 5px white;
+   animation: slider 35s infinite linear;
+}
+
+@keyframes slider {
+   0%{background-image: url(/css/img/1.jpg);}
+   15%{background-image: url(/css/img/2.jpg);}
+   30%{background-image: url(/css/img/3.jpg);}
+   45%{background-image: url(/css/img/3.jpg);}
+   60%{background-image: url(/css/img/3.jpg);}
+   75%{background-image: url(/css/img/3.jpg);}
+   100%{background-image: url(/css/img/3.jpg);}
+}
